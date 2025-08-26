@@ -1,5 +1,7 @@
 // import { CreateAssistantDTO } from "@vapi-ai/web/dist/api";
 // import { z } from "zod";
+// constants/index.ts
+export type FormType = "sign-in" | "sign-up";
 
 // export const mappings = {
 //   "react.js": "react",
