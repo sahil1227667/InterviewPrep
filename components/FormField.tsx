@@ -23,6 +23,7 @@ const FormField = ({control, name, label, placeholder, type = "text"}:
                 <FormControl>
                   <Input className="input" 
                   placeholder={placeholder}
+                  type={type}  
                    {...field} 
                   />
                 </FormControl>
